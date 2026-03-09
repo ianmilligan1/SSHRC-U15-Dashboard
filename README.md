@@ -2,7 +2,7 @@
 
 A static dashboard visualizing the University of Waterloo's SSHRC competition performance relative to U15 peers, built for strategic planning purposes.
 
-**Live site:** [ianmilligan1.github.io/SSHRC-U15-Dasboard](https://ianmilligan1.github.io/SSHRC-U15-Dasboard/)
+**Live site:** [ianmilligan1.github.io/SSHRC-U15-Dashboard](https://ianmilligan1.github.io/SSHRC-U15-Dashboard/)
 
 ## Data Coverage
 
