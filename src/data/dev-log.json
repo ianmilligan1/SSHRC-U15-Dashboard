@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2026-03-08T20:00:00-05:00",
+    "phase": "data-pipeline",
+    "description": "Scraped SSHRC statistics page to extract all Excel file URLs. Found 197 Excel files across 7 competition categories spanning 1995-2024.",
+    "challenges": "SSHRC website has SSL certificate issues requiring relaxed SSL verification. URLs extracted via HTML parsing of href attributes.",
+    "human_input": "Directed the overall project structure and competition categories to target.",
+    "ai_contribution": "Wrote curl-based scraper, classified 147 target files into 7 competition types."
+  },
+  {
+    "timestamp": "2026-03-08T20:15:00-05:00",
+    "phase": "data-pipeline",
+    "description": "Built initial data processing script and downloaded all 147 Excel files. First pass at parsing extracted data but revealed major column mapping issues.",
+    "challenges": "Excel spreadsheet formats vary significantly across years. Newer files (2018+) have multi-level column headers with Projects/Researchers/Total sub-columns. Older files (pre-2010) use ALL CAPS short university names like 'WATERLOO' instead of 'University of Waterloo'.",
+    "ai_contribution": "Created Node.js processing pipeline using xlsx library. Identified that column detection needed to handle group headers (Applications/Awards) appearing on different rows than the institution label."
+  },
+  {
+    "timestamp": "2026-03-08T20:30:00-05:00",
+    "phase": "debugging",
+    "description": "Fixed critical column detection bugs. Title rows like 'Subventions Savoir 2024' were triggering false header matches because they contained the French word for 'grants'. Also fixed province-name matching where 'Alberta' (province aggregate) was being confused with 'University of Alberta'.",
+    "challenges": "Five separate bugs in header detection: (1) Title row keyword false positives, (2) province vs university name ambiguity, (3) applications vs awards columns misidentified when multiple # columns exist, (4) success rates stored as decimals vs percentages, (5) CGS-D incorrectly treated as having applications when it's awards-only.",
+    "ai_contribution": "Implemented confidence-based university matching (high/low) to prefer specific names over short names. Added column-range detection using Application/Award group headers to correctly assign sub-columns."
+  },
+  {
+    "timestamp": "2026-03-08T20:45:00-05:00",
+    "phase": "data-pipeline",
+    "description": "Final data pipeline produces clean JSON with 7 competition types covering up to 30 years of data. All 15 U15 universities correctly identified across all years with data.",
+    "challenges": "Some older files (2003-2004) have formats too different to parse automatically. A few files have inconsistent column structures that required special-case handling.",
+    "ai_contribution": "Generated 342KB JSON data file with validated extraction across 147 spreadsheets."
+  },
+  {
+    "timestamp": "2026-03-08T21:00:00-05:00",
+    "phase": "dashboard-build",
+    "description": "Set up Vite React project with Recharts, React Router (hash routing for GitHub Pages), and all required dependencies. Created project structure with component hierarchy.",
+    "human_input": "Specified design requirements: black/white/grey palette, DM Sans + Instrument Serif typography, clean institutional look.",
+    "ai_contribution": "Scaffolded full React application with 10+ components, CSS design system, and data utility layer."
+  },
+  {
+    "timestamp": "2026-03-08T21:30:00-05:00",
+    "phase": "dashboard-build",
+    "description": "Built all dashboard visualization components: KPI cards, line charts, bar charts, ranking tables, heatmap, scatter plot, and historical trends. Each chart uses UW as bold black line against grey U15 peers.",
+    "ai_contribution": "Created reusable chart components with Recharts, responsive layouts, interactive tooltips showing all 15 universities, and data utility functions for cross-competition analysis."
+  },
+  {
+    "timestamp": "2026-03-08T22:00:00-05:00",
+    "phase": "dashboard-build",
+    "description": "Built About page with development log timeline, collapsible build prompt viewer, and methodology documentation. Implemented hash routing for GitHub Pages compatibility.",
+    "ai_contribution": "Created timeline component displaying this development log, integrated the full build prompt as viewable documentation."
+  }
+]
