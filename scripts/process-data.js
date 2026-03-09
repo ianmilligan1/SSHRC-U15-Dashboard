@@ -65,7 +65,7 @@ const PROVINCE_NAMES = new Set([
   'quebec', 'québec', 'quebec / québec',
   'atlantic', 'atlantic / atlantique', 'atlantique',
   'prairies', 'prairies / prairies',
-  'western', 'west', 'territories', 'north',
+  'western', 'west', 'territories', 'north', 'alberta', 'manitoba', 'saskatchewan',
   'sub-total', 'sub-total / total partiel', 'total', 'total / total',
   'total atlantic / total atlantique', 'total prairies',
   'total ontario', 'total québec', 'total quebec',
@@ -87,10 +87,19 @@ function matchU15(rawName) {
   // Skip province/region headers
   if (PROVINCE_NAMES.has(cleaned)) return null;
 
-  // High-confidence: exact or contains match against full name variants
+  // High-confidence: exact or starts-with match against full name variants
+  // IMPORTANT: We use startsWith (after stripping common prefixes like "the")
+  // instead of includes to avoid false positives like "King's University College
+  // at Western University" matching "Western University".
   for (const [canonical, variants] of Object.entries(U15_HIGH_CONF)) {
     for (const variant of variants) {
-      if (cleaned === variant || cleaned.includes(variant)) {
+      if (cleaned === variant) {
+        return { canonical, confidence: 'high' };
+      }
+      // For non-exact matches, check if name starts with the variant
+      // (after stripping common prefixes)
+      const stripped = cleaned.replace(/^(the|le|la|l')\s+/i, '');
+      if (stripped.startsWith(variant) || cleaned.startsWith(variant)) {
         return { canonical, confidence: 'high' };
       }
     }
@@ -287,8 +296,8 @@ function detectColumns(data, competitionType) {
     let indicatorRowIdx = -1;
     let isAwardsOnly = false;
 
-    // Scan from the header row (where institution label was found) + nearby rows
-    for (let k = Math.max(0, headerRowIdx - 1); k <= headerRowIdx + 4 && k < data.length; k++) {
+    // Scan from the start of the detection window through a few rows past the header
+    for (let k = i; k <= headerRowIdx + 4 && k < data.length; k++) {
       const subRow = data[k];
       if (!subRow) continue;
       const subStrs = subRow.map(c => String(c).toLowerCase().trim().replace(/\r?\n/g, ' '));
@@ -296,13 +305,14 @@ function detectColumns(data, competitionType) {
       // Only check columns > instCol for group headers (avoid title text in col 0)
       for (let j = instCol + 1; j < subStrs.length; j++) {
         const cell = subStrs[j];
-        if ((cell.includes('applic') || cell.includes('demande')) && appsStartCol < 0) {
+        if ((cell.includes('applic') || cell.includes('demande') || cell === 'app.' || cell === 'dem.') && appsStartCol < 0) {
           appsStartCol = j;
         }
         if ((cell.includes('awards') || cell.includes('subventions') || cell.includes('bourses')) && awardsStartCol < 0) {
           awardsStartCol = j;
         }
-        if ((cell.includes('success rate') || cell.includes('taux de réussite') || cell.includes('taux de reussite')) && successRateStartCol < 0) {
+        if ((cell.includes('success rate') || cell.includes('taux de réussite') || cell.includes('taux de reussite') ||
+             cell === 'sr/tr' || cell === 'sr' || cell.startsWith('sr/')) && successRateStartCol < 0) {
           successRateStartCol = j;
         }
       }
@@ -315,8 +325,13 @@ function detectColumns(data, competitionType) {
     }
 
     // Determine if this is awards-only (no applications column)
+    // Also treat as awards-only when Applications header appears AFTER Awards header,
+    // as this indicates the Applications column is an aggregate/total, not per-institution data
     if (awardsStartCol >= 0 && appsStartCol < 0) {
       isAwardsOnly = true;
+    } else if (awardsStartCol >= 0 && appsStartCol > awardsStartCol) {
+      isAwardsOnly = true;
+      appsStartCol = -1;
     }
 
     if (indicatorRowIdx < 0 && !isAwardsOnly) {
@@ -331,11 +346,19 @@ function detectColumns(data, competitionType) {
     const dataStartRow = indicatorRowIdx >= 0 ? indicatorRowIdx + 1 : headerRowIdx + 2;
 
     if (isAwardsOnly) {
-      // Awards-only format (CGS-M, CGS-D, sometimes others)
-      let awardsNumCol = instCol + 1;
-      if (indicatorRowIdx >= 0) {
+      // Awards-only format (CGS-M, CGS-D, connection grants, etc.)
+      // Prefer the awards group header position when available
+      let awardsNumCol = awardsStartCol >= 0 ? awardsStartCol : instCol + 1;
+      if (indicatorRowIdx >= 0 && awardsStartCol < 0) {
+        // Only use indicator row when we don't have a text header position
         const indicators = data[indicatorRowIdx].map(c => String(c).trim());
         for (let j = instCol + 1; j < indicators.length; j++) {
+          if (indicators[j] === '#') { awardsNumCol = j; break; }
+        }
+      } else if (indicatorRowIdx >= 0 && awardsStartCol >= 0) {
+        // Look for # near the awards header position (within 2 columns)
+        const indicators = data[indicatorRowIdx].map(c => String(c).trim());
+        for (let j = awardsStartCol; j <= awardsStartCol + 2 && j < indicators.length; j++) {
           if (indicators[j] === '#') { awardsNumCol = j; break; }
         }
       }
@@ -405,8 +428,13 @@ function detectColumns(data, competitionType) {
       }
     }
 
-    // Fallback: if we couldn't find apps/awards by ranges, use simple ordering
-    if (appsNumCol < 0 && awardsNumCol < 0) {
+    // Fallback: if we couldn't find apps/awards by # indicators in their ranges,
+    // use group header positions directly (common in older files where # appears
+    // under SR/TR headers instead of under Apps/Awards)
+    if (appsNumCol < 0 && awardsNumCol < 0 && appsStartCol >= 0 && awardsStartCol >= 0) {
+      appsNumCol = appsStartCol;
+      awardsNumCol = awardsStartCol;
+    } else if (appsNumCol < 0 && awardsNumCol < 0) {
       const allHash = [];
       for (let j = instCol + 1; j < indicators.length; j++) {
         if (indicators[j] === '#') allHash.push(j);
@@ -419,6 +447,10 @@ function detectColumns(data, competitionType) {
         awardsNumCol = allHash[1];
       }
     }
+
+    // If only one column detected but we have group headers, fill in the missing one
+    if (appsNumCol < 0 && appsStartCol >= 0) appsNumCol = appsStartCol;
+    if (awardsNumCol < 0 && awardsStartCol >= 0) awardsNumCol = awardsStartCol;
 
     return { dataStartRow, instCol, appsNumCol, appsTotalCol, awardsNumCol, awardsTotalCol, successRateCol };
   }
@@ -616,6 +648,31 @@ async function main() {
             uniData.awards = awards;
             issues++;
           }
+        }
+
+        // Fix: awards=0 but success_rate > 0 (impossible — column mapping error)
+        if (uniData.awards === 0 && uniData.success_rate > 0) {
+          // If we have apps and a rate, back-calculate awards
+          if (uniData.applications > 0 && uniData.success_rate <= 100) {
+            uniData.awards = Math.round(uniData.applications * uniData.success_rate / 100);
+          } else {
+            uniData.success_rate = null;
+          }
+          issues++;
+        }
+
+        // Fix: fractional awards (0 < awards < 1) — likely a success rate column misread as awards
+        if (uniData.awards > 0 && uniData.awards < 1) {
+          uniData.awards = 0;
+          uniData.success_rate = null;
+          issues++;
+        }
+
+        // Fix: fractional applications (0 < applications < 1)
+        if (uniData.applications != null && uniData.applications > 0 && uniData.applications < 1) {
+          uniData.applications = null;
+          uniData.success_rate = null;
+          issues++;
         }
 
         // Fix: success rate > 100 (recalculate)
