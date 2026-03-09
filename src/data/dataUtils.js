@@ -45,14 +45,20 @@ export const COMP_LABELS = {
   insight_grants: 'Insight Grants',
   insight_development_grants: 'Insight Development Grants',
   standard_research_grants: 'Standard Research Grants',
+  connection_grants: 'Connection Grants',
+  partnership_development_grants: 'Partnership Development Grants',
+  partnership_grants: 'Partnership Grants',
+  partnership_engage_grants: 'Partnership Engage Grants',
   cgs_masters: 'CGS Masters',
   cgs_doctoral: 'CGS Doctoral',
   sshrc_doctoral: 'SSHRC Doctoral',
   postdoctoral: 'Postdoctoral',
 };
 
-export const FACULTY_COMPS = ['insight_grants', 'insight_development_grants', 'standard_research_grants'];
+export const INSIGHT_COMPS = ['insight_grants', 'insight_development_grants', 'standard_research_grants'];
+export const PARTNERSHIP_COMPS = ['connection_grants', 'partnership_development_grants', 'partnership_grants', 'partnership_engage_grants'];
 export const TRAINING_COMPS = ['cgs_masters', 'cgs_doctoral', 'sshrc_doctoral', 'postdoctoral'];
+export const FACULTY_COMPS = INSIGHT_COMPS;
 
 export function getYears(compKey) {
   const comp = competitions[compKey];

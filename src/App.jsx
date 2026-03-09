@@ -1,5 +1,8 @@
 import { HashRouter, Routes, Route, NavLink } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
+import InsightPage from './components/InsightPage';
+import PartnershipsPage from './components/PartnershipsPage';
+import TalentPage from './components/TalentPage';
 import AboutPage from './components/AboutPage';
 
 function App() {
@@ -9,12 +12,18 @@ function App() {
         <nav className="nav">
           <NavLink to="/" className="nav-brand">SSHRC U15 Dashboard</NavLink>
           <ul className="nav-links">
-            <li><NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Dashboard</NavLink></li>
+            <li><NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Overview</NavLink></li>
+            <li><NavLink to="/insight" className={({ isActive }) => isActive ? 'active' : ''}>Insight</NavLink></li>
+            <li><NavLink to="/partnerships" className={({ isActive }) => isActive ? 'active' : ''}>Partnerships</NavLink></li>
+            <li><NavLink to="/talent" className={({ isActive }) => isActive ? 'active' : ''}>Talent</NavLink></li>
             <li><NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>About</NavLink></li>
           </ul>
         </nav>
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/insight" element={<InsightPage />} />
+          <Route path="/partnerships" element={<PartnershipsPage />} />
+          <Route path="/talent" element={<TalentPage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
         <footer className="footer">

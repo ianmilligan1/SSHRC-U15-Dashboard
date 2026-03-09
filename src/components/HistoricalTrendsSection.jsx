@@ -3,10 +3,12 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { getUWRankOverTime, COMP_LABELS } from '../data/dataUtils';
 
 export default function HistoricalTrendsSection() {
-  const compKeys = ['insight_grants', 'insight_development_grants', 'sshrc_doctoral', 'postdoctoral', 'cgs_masters'];
+  const compKeys = ['insight_grants', 'insight_development_grants', 'connection_grants', 'partnership_development_grants', 'sshrc_doctoral', 'postdoctoral', 'cgs_masters'];
   const colors = {
     insight_grants: '#000000',
     insight_development_grants: '#444444',
+    connection_grants: '#2563eb',
+    partnership_development_grants: '#7c3aed',
     sshrc_doctoral: '#888888',
     postdoctoral: '#aaaaaa',
     cgs_masters: '#cccccc',

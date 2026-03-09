@@ -1,7 +1,4 @@
 import KPICards from './KPICards';
-import InsightGrantsSection from './InsightGrantsSection';
-import IDGSection from './IDGSection';
-import TrainingSection from './TrainingSection';
 import U15ComparisonSection from './U15ComparisonSection';
 import HistoricalTrendsSection from './HistoricalTrendsSection';
 
@@ -14,9 +11,6 @@ export default function Dashboard() {
       </header>
 
       <KPICards />
-      <InsightGrantsSection />
-      <IDGSection />
-      <TrainingSection />
       <U15ComparisonSection />
       <HistoricalTrendsSection />
     </div>

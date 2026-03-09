@@ -116,6 +116,10 @@ function classifyFile(urlPath) {
   if (filename.startsWith('ig_')) return { type: 'insight_grants', year };
   if (filename.startsWith('idg_')) return { type: 'insight_development_grants', year };
   if (filename.startsWith('research_')) return { type: 'standard_research_grants', year };
+  if (filename.startsWith('connection_')) return { type: 'connection_grants', year };
+  if (filename.startsWith('pdg_')) return { type: 'partnership_development_grants', year };
+  if (filename.startsWith('pg_')) return { type: 'partnership_grants', year };
+  if (filename.startsWith('engage_')) return { type: 'partnership_engage_grants', year };
   if (filename.startsWith('masters_')) return { type: 'cgs_masters', year };
   if (filename.startsWith('cgs_docs_')) return { type: 'cgs_doctoral', year };
   if (filename.startsWith('docs_')) return { type: 'sshrc_doctoral', year };
@@ -171,11 +175,26 @@ function parseNumber(val) {
 }
 
 function findOrgSheet(workbook) {
-  // The organization/institution sheet is usually "- 1 -" in newer files
-  // or the first data sheet in older files
   const sheetNames = workbook.SheetNames;
 
-  // Try "- 1 -" first (newer format)
+  // For multi-sheet workbooks, check sheet content headers to find the
+  // "by administering organization" sheet (it's not always "- 1 -")
+  for (const name of sheetNames) {
+    if (name.toLowerCase().includes('content') || name.toLowerCase().includes('mati')) continue;
+    const ws = workbook.Sheets[name];
+    const data = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '' });
+    for (let i = 0; i < Math.min(5, data.length); i++) {
+      const row = data[i];
+      if (!row) continue;
+      const text = row.map(c => String(c).toLowerCase()).join(' ');
+      if (text.includes('administering org') || text.includes('établissement admin') ||
+          text.includes('by institution') || text.includes('par établissement')) {
+        return name;
+      }
+    }
+  }
+
+  // Fallback: try "- 1 -" (common for most competition types)
   if (sheetNames.includes('- 1 -')) return '- 1 -';
 
   // Try sheets with institution-related names
@@ -547,6 +566,10 @@ async function main() {
     insight_grants: { label: 'Insight Grants', category: 'faculty_research', years: {} },
     insight_development_grants: { label: 'Insight Development Grants', category: 'faculty_research', years: {} },
     standard_research_grants: { label: 'Standard Research Grants', category: 'faculty_research', years: {} },
+    connection_grants: { label: 'Connection Grants', category: 'partnerships', years: {} },
+    partnership_development_grants: { label: 'Partnership Development Grants', category: 'partnerships', years: {} },
+    partnership_grants: { label: 'Partnership Grants', category: 'partnerships', years: {} },
+    partnership_engage_grants: { label: 'Partnership Engage Grants', category: 'partnerships', years: {} },
     cgs_masters: { label: 'CGS Masters', category: 'training', years: {} },
     cgs_doctoral: { label: 'CGS Doctoral', category: 'training', years: {} },
     sshrc_doctoral: { label: 'SSHRC Doctoral Awards', category: 'training', years: {} },

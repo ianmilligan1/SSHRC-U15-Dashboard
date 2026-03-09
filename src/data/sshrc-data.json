@@ -4,6 +4,190 @@
       "label": "Insight Grants",
       "category": "faculty_research",
       "years": {
+        "2012": {
+          "Dalhousie University": {
+            "applications": 15,
+            "awards": 3,
+            "success_rate": 20,
+            "total_funding": 572968
+          },
+          "Université Laval": {
+            "applications": 64,
+            "awards": 15,
+            "success_rate": 23.44,
+            "total_funding": 3135213
+          },
+          "McGill University": {
+            "applications": 95,
+            "awards": 39,
+            "success_rate": 41.05,
+            "total_funding": 7142748
+          },
+          "Université de Montréal": {
+            "applications": 81,
+            "awards": 26,
+            "success_rate": 32.1,
+            "total_funding": 4352205
+          },
+          "McMaster University": {
+            "applications": 42,
+            "awards": 9,
+            "success_rate": 21.43,
+            "total_funding": 1497243
+          },
+          "University of Ottawa": {
+            "applications": 78,
+            "awards": 23,
+            "success_rate": 29.49,
+            "total_funding": 3996173
+          },
+          "Queen's University": {
+            "applications": 51,
+            "awards": 14,
+            "success_rate": 27.45,
+            "total_funding": 1627014
+          },
+          "University of Toronto": {
+            "applications": 160,
+            "awards": 63,
+            "success_rate": 39.38,
+            "total_funding": 9741067
+          },
+          "University of Waterloo": {
+            "applications": 44,
+            "awards": 9,
+            "success_rate": 20.45,
+            "total_funding": 1933413
+          },
+          "Western University": {
+            "applications": 67,
+            "awards": 20,
+            "success_rate": 29.85,
+            "total_funding": 3043675
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 61,
+            "awards": 11,
+            "success_rate": 18.03,
+            "total_funding": 1752215
+          },
+          "University of British Columbia": {
+            "applications": 125,
+            "awards": 38,
+            "success_rate": 30.4,
+            "total_funding": 6388275
+          }
+        },
+        "2013": {
+          "Dalhousie University": {
+            "applications": 27,
+            "awards": 6,
+            "success_rate": 22.22,
+            "total_funding": 1103077
+          },
+          "Université Laval": {
+            "applications": 64,
+            "awards": 11,
+            "success_rate": 17.19,
+            "total_funding": 2661593
+          },
+          "McGill University": {
+            "applications": 99,
+            "awards": 30,
+            "success_rate": 30.3,
+            "total_funding": 6843199
+          },
+          "Université de Montréal": {
+            "applications": 84,
+            "awards": 24,
+            "success_rate": 28.57,
+            "total_funding": 4589625
+          },
+          "McMaster University": {
+            "applications": 51,
+            "awards": 4,
+            "success_rate": 7.84,
+            "total_funding": 943159
+          },
+          "University of Ottawa": {
+            "applications": 76,
+            "awards": 18,
+            "success_rate": 23.68,
+            "total_funding": 3813871
+          },
+          "Queen's University": {
+            "applications": 61,
+            "awards": 15,
+            "success_rate": 24.59,
+            "total_funding": 2181449
+          },
+          "University of Toronto": {
+            "applications": 214,
+            "awards": 63,
+            "success_rate": 29.44,
+            "total_funding": 9961853
+          },
+          "University of Waterloo": {
+            "applications": 61,
+            "awards": 9,
+            "success_rate": 14.75,
+            "total_funding": 1932776
+          },
+          "Western University": {
+            "applications": 59,
+            "awards": 12,
+            "success_rate": 20.34,
+            "total_funding": 1858936
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 75,
+            "awards": 16,
+            "success_rate": 21.33,
+            "total_funding": 2155548
+          },
+          "University of British Columbia": {
+            "applications": 169,
+            "awards": 44,
+            "success_rate": 26.04,
+            "total_funding": 7479191
+          }
+        },
         "2014": {
           "Dalhousie University": {
             "applications": null,
@@ -1112,6 +1296,190 @@
             "awards": 16,
             "success_rate": 59.26,
             "total_funding": 772364
+          }
+        },
+        "2012": {
+          "Dalhousie University": {
+            "applications": 18,
+            "awards": 9,
+            "success_rate": 50,
+            "total_funding": 494038
+          },
+          "Université Laval": {
+            "applications": 17,
+            "awards": 7,
+            "success_rate": 41.18,
+            "total_funding": 247925
+          },
+          "McGill University": {
+            "applications": 30,
+            "awards": 13,
+            "success_rate": 43.33,
+            "total_funding": 832800
+          },
+          "Université de Montréal": {
+            "applications": 33,
+            "awards": 15,
+            "success_rate": 45.45,
+            "total_funding": 778099
+          },
+          "McMaster University": {
+            "applications": 14,
+            "awards": 8,
+            "success_rate": 57.14,
+            "total_funding": 448282
+          },
+          "University of Ottawa": {
+            "applications": 30,
+            "awards": 11,
+            "success_rate": 36.67,
+            "total_funding": 459853
+          },
+          "Queen's University": {
+            "applications": 13,
+            "awards": 7,
+            "success_rate": 53.85,
+            "total_funding": 336362
+          },
+          "University of Toronto": {
+            "applications": 58,
+            "awards": 25,
+            "success_rate": 43.1,
+            "total_funding": 1169804
+          },
+          "University of Waterloo": {
+            "applications": 22,
+            "awards": 14,
+            "success_rate": 63.64,
+            "total_funding": 702381
+          },
+          "Western University": {
+            "applications": 18,
+            "awards": 5,
+            "success_rate": 27.78,
+            "total_funding": 207937
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 22,
+            "awards": 8,
+            "success_rate": 36.36,
+            "total_funding": 426502
+          },
+          "University of British Columbia": {
+            "applications": 45,
+            "awards": 21,
+            "success_rate": 46.67,
+            "total_funding": 1117204
+          }
+        },
+        "2013": {
+          "Dalhousie University": {
+            "applications": 24,
+            "awards": 4,
+            "success_rate": 16.67,
+            "total_funding": 185491
+          },
+          "Université Laval": {
+            "applications": 32,
+            "awards": 12,
+            "success_rate": 37.5,
+            "total_funding": 776446
+          },
+          "McGill University": {
+            "applications": 44,
+            "awards": 21,
+            "success_rate": 47.73,
+            "total_funding": 1273915
+          },
+          "Université de Montréal": {
+            "applications": 43,
+            "awards": 22,
+            "success_rate": 51.16,
+            "total_funding": 1198240
+          },
+          "McMaster University": {
+            "applications": 17,
+            "awards": 4,
+            "success_rate": 23.53,
+            "total_funding": 247791
+          },
+          "University of Ottawa": {
+            "applications": 35,
+            "awards": 12,
+            "success_rate": 34.29,
+            "total_funding": 636851
+          },
+          "Queen's University": {
+            "applications": 10,
+            "awards": 4,
+            "success_rate": 40,
+            "total_funding": 247549
+          },
+          "University of Toronto": {
+            "applications": 51,
+            "awards": 20,
+            "success_rate": 39.22,
+            "total_funding": 1183911
+          },
+          "University of Waterloo": {
+            "applications": 29,
+            "awards": 11,
+            "success_rate": 37.93,
+            "total_funding": 776721
+          },
+          "Western University": {
+            "applications": 34,
+            "awards": 8,
+            "success_rate": 23.53,
+            "total_funding": 494555
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 28,
+            "awards": 8,
+            "success_rate": 28.57,
+            "total_funding": 553631
+          },
+          "University of British Columbia": {
+            "applications": 41,
+            "awards": 15,
+            "success_rate": 36.59,
+            "total_funding": 889012
           }
         },
         "2014": {
@@ -2868,6 +3236,190 @@
             "total_funding": 3882382
           }
         },
+        "2003": {
+          "Dalhousie University": {
+            "applications": 25,
+            "awards": 10,
+            "success_rate": 40,
+            "total_funding": 944454
+          },
+          "McGill University": {
+            "applications": 76,
+            "awards": 44,
+            "success_rate": 57.89,
+            "total_funding": 4729612
+          },
+          "Université de Montréal": {
+            "applications": 113,
+            "awards": 52,
+            "success_rate": 46.02,
+            "total_funding": 4036349
+          },
+          "Université Laval": {
+            "applications": 71,
+            "awards": 35,
+            "success_rate": 49.3,
+            "total_funding": 3058961
+          },
+          "McMaster University": {
+            "applications": 31,
+            "awards": 14,
+            "success_rate": 45.16,
+            "total_funding": 995588
+          },
+          "Queen's University": {
+            "applications": 44,
+            "awards": 22,
+            "success_rate": 50,
+            "total_funding": 1492620
+          },
+          "Western University": {
+            "applications": 60,
+            "awards": 35,
+            "success_rate": 58.33,
+            "total_funding": 2609311
+          },
+          "University of Ottawa": {
+            "applications": 61,
+            "awards": 24,
+            "success_rate": 39.34,
+            "total_funding": 1915895
+          },
+          "University of Toronto": {
+            "applications": 193,
+            "awards": 97,
+            "success_rate": 50.26,
+            "total_funding": 8676246
+          },
+          "University of Waterloo": {
+            "applications": 28,
+            "awards": 10,
+            "success_rate": 35.71,
+            "total_funding": 794986
+          },
+          "University of Manitoba": {
+            "applications": 50,
+            "awards": 18,
+            "success_rate": 36,
+            "total_funding": 1518677
+          },
+          "University of Saskatchewan": {
+            "applications": 23,
+            "awards": 9,
+            "success_rate": 39.13,
+            "total_funding": 657260
+          },
+          "University of Alberta": {
+            "applications": 89,
+            "awards": 40,
+            "success_rate": 44.94,
+            "total_funding": 3447545
+          },
+          "University of Calgary": {
+            "applications": 62,
+            "awards": 26,
+            "success_rate": 41.94,
+            "total_funding": 2238320
+          },
+          "University of British Columbia": {
+            "applications": 110,
+            "awards": 65,
+            "success_rate": 59.09,
+            "total_funding": 5306439
+          }
+        },
+        "2004": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
         "2005": {
           "Dalhousie University": {
             "applications": null,
@@ -3508,10 +4060,4674 @@
         }
       }
     },
+    "connection_grants": {
+      "label": "Connection Grants",
+      "category": "partnerships",
+      "years": {
+        "2012": {
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2013": {
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2014": {
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2015": {
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2016": {
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2017": {
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2018": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2019": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2020": {
+          "University of Alberta": {
+            "applications": 6,
+            "awards": 5,
+            "success_rate": 83.33,
+            "total_funding": 180095
+          },
+          "University of Calgary": {
+            "applications": 17,
+            "awards": 11,
+            "success_rate": 64.71,
+            "total_funding": 221758
+          },
+          "University of British Columbia": {
+            "applications": 22,
+            "awards": 15,
+            "success_rate": 68.18,
+            "total_funding": 488053
+          },
+          "University of Manitoba": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 79198
+          },
+          "Dalhousie University": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 109470
+          },
+          "McMaster University": {
+            "applications": 5,
+            "awards": 3,
+            "success_rate": 60,
+            "total_funding": 59529
+          },
+          "Queen's University": {
+            "applications": 9,
+            "awards": 7,
+            "success_rate": 77.78,
+            "total_funding": 252145
+          },
+          "University of Ottawa": {
+            "applications": 16,
+            "awards": 10,
+            "success_rate": 62.5,
+            "total_funding": 275718
+          },
+          "University of Toronto": {
+            "applications": 23,
+            "awards": 19,
+            "success_rate": 82.61,
+            "total_funding": 491094
+          },
+          "University of Waterloo": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 122136
+          },
+          "Western University": {
+            "applications": 8,
+            "awards": 7,
+            "success_rate": 87.5,
+            "total_funding": 205765
+          },
+          "McGill University": {
+            "applications": 11,
+            "awards": 8,
+            "success_rate": 72.73,
+            "total_funding": 222238
+          },
+          "Université de Montréal": {
+            "applications": 12,
+            "awards": 11,
+            "success_rate": 91.67,
+            "total_funding": 384069
+          },
+          "Université Laval": {
+            "applications": 11,
+            "awards": 9,
+            "success_rate": 81.82,
+            "total_funding": 201342
+          },
+          "University of Saskatchewan": {
+            "applications": 2,
+            "awards": 2,
+            "success_rate": 100,
+            "total_funding": 37023
+          }
+        },
+        "2021": {
+          "University of Alberta": {
+            "applications": 11,
+            "awards": 9,
+            "success_rate": 81.82,
+            "total_funding": 289890
+          },
+          "University of Calgary": {
+            "applications": 14,
+            "awards": 12,
+            "success_rate": 85.71,
+            "total_funding": 278924
+          },
+          "University of British Columbia": {
+            "applications": 16,
+            "awards": 11,
+            "success_rate": 68.75,
+            "total_funding": 294006
+          },
+          "University of Manitoba": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 81523
+          },
+          "Dalhousie University": {
+            "applications": 6,
+            "awards": 5,
+            "success_rate": 83.33,
+            "total_funding": 132604
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 12687
+          },
+          "McMaster University": {
+            "applications": 8,
+            "awards": 7,
+            "success_rate": 87.5,
+            "total_funding": 166099
+          },
+          "Queen's University": {
+            "applications": 7,
+            "awards": 5,
+            "success_rate": 71.43,
+            "total_funding": 157673
+          },
+          "University of Ottawa": {
+            "applications": 16,
+            "awards": 13,
+            "success_rate": 81.25,
+            "total_funding": 290769
+          },
+          "University of Toronto": {
+            "applications": 25,
+            "awards": 19,
+            "success_rate": 76,
+            "total_funding": 602969
+          },
+          "University of Waterloo": {
+            "applications": 3,
+            "awards": 2,
+            "success_rate": 66.67,
+            "total_funding": 36597
+          },
+          "McGill University": {
+            "applications": 17,
+            "awards": 15,
+            "success_rate": 88.24,
+            "total_funding": 407443
+          },
+          "Université de Montréal": {
+            "applications": 12,
+            "awards": 12,
+            "success_rate": 100,
+            "total_funding": 343527
+          },
+          "Université Laval": {
+            "applications": 19,
+            "awards": 18,
+            "success_rate": 94.74,
+            "total_funding": 424536
+          },
+          "University of Saskatchewan": {
+            "applications": 5,
+            "awards": 5,
+            "success_rate": 100,
+            "total_funding": 112182
+          }
+        },
+        "2022": {
+          "University of Alberta": {
+            "applications": 9,
+            "awards": 6,
+            "success_rate": 66.67,
+            "total_funding": 205313
+          },
+          "University of Calgary": {
+            "applications": 19,
+            "awards": 11,
+            "success_rate": 57.89,
+            "total_funding": 275318
+          },
+          "University of British Columbia": {
+            "applications": 28,
+            "awards": 17,
+            "success_rate": 60.71,
+            "total_funding": 442956
+          },
+          "University of Manitoba": {
+            "applications": 9,
+            "awards": 7,
+            "success_rate": 77.78,
+            "total_funding": 176971
+          },
+          "Dalhousie University": {
+            "applications": 11,
+            "awards": 6,
+            "success_rate": 54.55,
+            "total_funding": 197652
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McMaster University": {
+            "applications": 5,
+            "awards": 5,
+            "success_rate": 100,
+            "total_funding": 138734
+          },
+          "Queen's University": {
+            "applications": 12,
+            "awards": 7,
+            "success_rate": 58.33,
+            "total_funding": 177998
+          },
+          "University of Ottawa": {
+            "applications": 28,
+            "awards": 23,
+            "success_rate": 82.14,
+            "total_funding": 646873
+          },
+          "University of Toronto": {
+            "applications": 49,
+            "awards": 34,
+            "success_rate": 69.39,
+            "total_funding": 964566
+          },
+          "University of Waterloo": {
+            "applications": 10,
+            "awards": 7,
+            "success_rate": 70,
+            "total_funding": 180781
+          },
+          "McGill University": {
+            "applications": 16,
+            "awards": 13,
+            "success_rate": 81.25,
+            "total_funding": 348634
+          },
+          "Université de Montréal": {
+            "applications": 36,
+            "awards": 31,
+            "success_rate": 86.11,
+            "total_funding": 922525
+          },
+          "Université Laval": {
+            "applications": 16,
+            "awards": 14,
+            "success_rate": 87.5,
+            "total_funding": 418835
+          },
+          "University of Saskatchewan": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 75262
+          }
+        },
+        "2023": {
+          "University of Alberta": {
+            "applications": 22,
+            "awards": 8,
+            "success_rate": 36.36,
+            "total_funding": 244165
+          },
+          "University of Calgary": {
+            "applications": 24,
+            "awards": 10,
+            "success_rate": 41.67,
+            "total_funding": 286267
+          },
+          "University of British Columbia": {
+            "applications": 40,
+            "awards": 14,
+            "success_rate": 35,
+            "total_funding": 302742
+          },
+          "Western University": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 25831
+          },
+          "University of Manitoba": {
+            "applications": 10,
+            "awards": 4,
+            "success_rate": 40,
+            "total_funding": 81774
+          },
+          "Dalhousie University": {
+            "applications": 19,
+            "awards": 9,
+            "success_rate": 47.37,
+            "total_funding": 225121
+          },
+          "McMaster University": {
+            "applications": 14,
+            "awards": 9,
+            "success_rate": 64.29,
+            "total_funding": 212221
+          },
+          "Queen's University": {
+            "applications": 16,
+            "awards": 8,
+            "success_rate": 50,
+            "total_funding": 262223
+          },
+          "University of Ottawa": {
+            "applications": 34,
+            "awards": 12,
+            "success_rate": 35.29,
+            "total_funding": 447859
+          },
+          "University of Toronto": {
+            "applications": 69,
+            "awards": 25,
+            "success_rate": 36.23,
+            "total_funding": 796353
+          },
+          "University of Waterloo": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 165070
+          },
+          "McGill University": {
+            "applications": 23,
+            "awards": 11,
+            "success_rate": 47.83,
+            "total_funding": 278594
+          },
+          "Université de Montréal": {
+            "applications": 36,
+            "awards": 19,
+            "success_rate": 52.78,
+            "total_funding": 621657
+          },
+          "Université Laval": {
+            "applications": 32,
+            "awards": 16,
+            "success_rate": 50,
+            "total_funding": 369605
+          },
+          "University of Saskatchewan": {
+            "applications": 13,
+            "awards": 4,
+            "success_rate": 30.77,
+            "total_funding": 119700
+          }
+        },
+        "2024": {
+          "University of Alberta": {
+            "applications": 27,
+            "awards": 10,
+            "success_rate": 37.04,
+            "total_funding": 317126
+          },
+          "University of Calgary": {
+            "applications": 23,
+            "awards": 5,
+            "success_rate": 21.74,
+            "total_funding": 199031
+          },
+          "University of British Columbia": {
+            "applications": 46,
+            "awards": 16,
+            "success_rate": 34.78,
+            "total_funding": 496513
+          },
+          "University of Manitoba": {
+            "applications": 7,
+            "awards": 1,
+            "success_rate": 14.29,
+            "total_funding": 21577
+          },
+          "Dalhousie University": {
+            "applications": 13,
+            "awards": 6,
+            "success_rate": 46.15,
+            "total_funding": 150204
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 11310
+          },
+          "McMaster University": {
+            "applications": 21,
+            "awards": 14,
+            "success_rate": 66.67,
+            "total_funding": 326582
+          },
+          "Queen's University": {
+            "applications": 20,
+            "awards": 9,
+            "success_rate": 45,
+            "total_funding": 286973
+          },
+          "University of Ottawa": {
+            "applications": 25,
+            "awards": 10,
+            "success_rate": 40,
+            "total_funding": 253134
+          },
+          "University of Toronto": {
+            "applications": 64,
+            "awards": 25,
+            "success_rate": 39.06,
+            "total_funding": 818269
+          },
+          "University of Waterloo": {
+            "applications": 16,
+            "awards": 6,
+            "success_rate": 37.5,
+            "total_funding": 214511
+          },
+          "McGill University": {
+            "applications": 34,
+            "awards": 18,
+            "success_rate": 52.94,
+            "total_funding": 559569
+          },
+          "Université de Montréal": {
+            "applications": 41,
+            "awards": 15,
+            "success_rate": 36.59,
+            "total_funding": 628529
+          },
+          "Université Laval": {
+            "applications": 22,
+            "awards": 15,
+            "success_rate": 68.18,
+            "total_funding": 402239
+          },
+          "University of Saskatchewan": {
+            "applications": 17,
+            "awards": 6,
+            "success_rate": 35.29,
+            "total_funding": 224610
+          }
+        }
+      }
+    },
+    "partnership_development_grants": {
+      "label": "Partnership Development Grants",
+      "category": "partnerships",
+      "years": {
+        "2010": {
+          "Dalhousie University": {
+            "applications": 5,
+            "awards": 1,
+            "success_rate": 20,
+            "total_funding": 199200
+          },
+          "Université Laval": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McGill University": {
+            "applications": 6,
+            "awards": 3,
+            "success_rate": 50,
+            "total_funding": 655095
+          },
+          "Université de Montréal": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": 200000
+          },
+          "McMaster University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Ottawa": {
+            "applications": 8,
+            "awards": 4,
+            "success_rate": 50,
+            "total_funding": 786533
+          },
+          "Queen's University": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": 438615
+          },
+          "University of Toronto": {
+            "applications": 11,
+            "awards": 5,
+            "success_rate": 45.45,
+            "total_funding": 995835
+          },
+          "University of Waterloo": {
+            "applications": 2,
+            "awards": 2,
+            "success_rate": 100,
+            "total_funding": 458620
+          },
+          "Western University": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": 128500
+          },
+          "University of British Columbia": {
+            "applications": 7,
+            "awards": 1,
+            "success_rate": 14.29,
+            "total_funding": 199940
+          }
+        },
+        "2011": {
+          "Dalhousie University": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 798373
+          },
+          "Université Laval": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McGill University": {
+            "applications": 10,
+            "awards": 4,
+            "success_rate": 40,
+            "total_funding": 761111
+          },
+          "Université de Montréal": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 747082
+          },
+          "McMaster University": {
+            "applications": 3,
+            "awards": 2,
+            "success_rate": 66.67,
+            "total_funding": 398100
+          },
+          "University of Ottawa": {
+            "applications": 8,
+            "awards": 2,
+            "success_rate": 25,
+            "total_funding": 319928
+          },
+          "Queen's University": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Toronto": {
+            "applications": 14,
+            "awards": 6,
+            "success_rate": 42.86,
+            "total_funding": 1087081
+          },
+          "University of Waterloo": {
+            "applications": 6,
+            "awards": 5,
+            "success_rate": 83.33,
+            "total_funding": 954344
+          },
+          "Western University": {
+            "applications": 2,
+            "awards": 2,
+            "success_rate": 100,
+            "total_funding": 399325
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of British Columbia": {
+            "applications": 11,
+            "awards": 4,
+            "success_rate": 36.36,
+            "total_funding": 796420
+          }
+        },
+        "2012": {
+          "Université Laval": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 798655
+          },
+          "McGill University": {
+            "applications": 10,
+            "awards": 4,
+            "success_rate": 40,
+            "total_funding": 749808
+          },
+          "Université de Montréal": {
+            "applications": 7,
+            "awards": 2,
+            "success_rate": 28.57,
+            "total_funding": 399562
+          },
+          "McMaster University": {
+            "applications": 6,
+            "awards": 2,
+            "success_rate": 33.33,
+            "total_funding": 398337
+          },
+          "University of Ottawa": {
+            "applications": 7,
+            "awards": 3,
+            "success_rate": 42.86,
+            "total_funding": 569793
+          },
+          "Queen's University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Toronto": {
+            "applications": 11,
+            "awards": 5,
+            "success_rate": 45.45,
+            "total_funding": 872188
+          },
+          "University of Waterloo": {
+            "applications": 7,
+            "awards": 3,
+            "success_rate": 42.86,
+            "total_funding": 589490
+          },
+          "Western University": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": 360583
+          },
+          "University of British Columbia": {
+            "applications": 13,
+            "awards": 4,
+            "success_rate": 30.77,
+            "total_funding": 792332
+          }
+        },
+        "2013": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2014": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2015": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2016": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2017": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2018": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 7,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2019": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 8,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2020": {
+          "University of Alberta": {
+            "applications": 6,
+            "awards": 5,
+            "success_rate": 83.33,
+            "total_funding": 944973
+          },
+          "University of Calgary": {
+            "applications": 7,
+            "awards": 5,
+            "success_rate": 71.43,
+            "total_funding": 942224
+          },
+          "University of British Columbia": {
+            "applications": 8,
+            "awards": 7,
+            "success_rate": 87.5,
+            "total_funding": 1339905
+          },
+          "University of Manitoba": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Dalhousie University": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McMaster University": {
+            "applications": 3,
+            "awards": 2,
+            "success_rate": 66.67,
+            "total_funding": 399961
+          },
+          "Queen's University": {
+            "applications": 3,
+            "awards": 2,
+            "success_rate": 66.67,
+            "total_funding": 398000
+          },
+          "University of Ottawa": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 658433
+          },
+          "University of Toronto": {
+            "applications": 10,
+            "awards": 7,
+            "success_rate": 70,
+            "total_funding": 1367356
+          },
+          "University of Waterloo": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 197200
+          },
+          "Western University": {
+            "applications": 5,
+            "awards": 4,
+            "success_rate": 80,
+            "total_funding": 667421
+          },
+          "McGill University": {
+            "applications": 3,
+            "awards": 3,
+            "success_rate": 100,
+            "total_funding": 588287
+          },
+          "Université de Montréal": {
+            "applications": 7,
+            "awards": 6,
+            "success_rate": 85.71,
+            "total_funding": 1069121
+          },
+          "Université Laval": {
+            "applications": 3,
+            "awards": 3,
+            "success_rate": 100,
+            "total_funding": 599871
+          },
+          "University of Saskatchewan": {
+            "applications": 3,
+            "awards": 2,
+            "success_rate": 66.67,
+            "total_funding": 399755
+          }
+        },
+        "2021": {
+          "University of Alberta": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 194350
+          },
+          "University of Calgary": {
+            "applications": 7,
+            "awards": 5,
+            "success_rate": 70.78,
+            "total_funding": 964915
+          },
+          "University of British Columbia": {
+            "applications": 4,
+            "awards": 3,
+            "success_rate": 75.17,
+            "total_funding": 598527
+          },
+          "Dalhousie University": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 38.42,
+            "total_funding": 200000
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 199991
+          },
+          "McMaster University": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 199918
+          },
+          "Queen's University": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 65.56,
+            "total_funding": 189062
+          },
+          "University of Ottawa": {
+            "applications": 7,
+            "awards": 3,
+            "success_rate": 38.9,
+            "total_funding": 480445
+          },
+          "University of Toronto": {
+            "applications": 11,
+            "awards": 8,
+            "success_rate": 71.46,
+            "total_funding": 1488614
+          },
+          "University of Waterloo": {
+            "applications": 3,
+            "awards": 3,
+            "success_rate": 98.06,
+            "total_funding": 504101
+          },
+          "McGill University": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 52.36,
+            "total_funding": 399636
+          },
+          "Université de Montréal": {
+            "applications": 7,
+            "awards": 6,
+            "success_rate": 85.74,
+            "total_funding": 1197632
+          },
+          "Université Laval": {
+            "applications": 3,
+            "awards": 3,
+            "success_rate": 100,
+            "total_funding": 542830
+          },
+          "University of Saskatchewan": {
+            "applications": 3,
+            "awards": 3,
+            "success_rate": 99.67,
+            "total_funding": 595511
+          }
+        },
+        "2022": {
+          "University of Alberta": {
+            "applications": 5,
+            "awards": 4,
+            "success_rate": 80,
+            "total_funding": 797877
+          },
+          "University of Calgary": {
+            "applications": 5,
+            "awards": 2,
+            "success_rate": 40,
+            "total_funding": 399500
+          },
+          "University of British Columbia": {
+            "applications": 8,
+            "awards": 4,
+            "success_rate": 50,
+            "total_funding": 799625
+          },
+          "University of Manitoba": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Dalhousie University": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McMaster University": {
+            "applications": 5,
+            "awards": 4,
+            "success_rate": 80,
+            "total_funding": 794784
+          },
+          "University of Ottawa": {
+            "applications": 14,
+            "awards": 7,
+            "success_rate": 50,
+            "total_funding": 1385512
+          },
+          "University of Toronto": {
+            "applications": 12,
+            "awards": 5,
+            "success_rate": 41.67,
+            "total_funding": 996511
+          },
+          "University of Waterloo": {
+            "applications": 4,
+            "awards": 3,
+            "success_rate": 75,
+            "total_funding": 596614
+          },
+          "Western University": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 785841
+          },
+          "McGill University": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 200000
+          },
+          "Université de Montréal": {
+            "applications": 6,
+            "awards": 4,
+            "success_rate": 66.67,
+            "total_funding": 797415
+          },
+          "Université Laval": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 200000
+          },
+          "University of Saskatchewan": {
+            "applications": 6,
+            "awards": 1,
+            "success_rate": 16.67,
+            "total_funding": 199992
+          }
+        },
+        "2023": {
+          "University of Alberta": {
+            "applications": 2,
+            "awards": 2,
+            "success_rate": 100,
+            "total_funding": 393782
+          },
+          "University of Calgary": {
+            "applications": 7,
+            "awards": 6,
+            "success_rate": 85.71,
+            "total_funding": 1192900
+          },
+          "University of British Columbia": {
+            "applications": 14,
+            "awards": 9,
+            "success_rate": 64.29,
+            "total_funding": 1693213
+          },
+          "University of Manitoba": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Dalhousie University": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 799436
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McMaster University": {
+            "applications": 8,
+            "awards": 1,
+            "success_rate": 12.5,
+            "total_funding": 196354
+          },
+          "Queen's University": {
+            "applications": 8,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Ottawa": {
+            "applications": 12,
+            "awards": 2,
+            "success_rate": 16.67,
+            "total_funding": 398396
+          },
+          "University of Toronto": {
+            "applications": 16,
+            "awards": 4,
+            "success_rate": 25,
+            "total_funding": 771820
+          },
+          "University of Waterloo": {
+            "applications": 3,
+            "awards": 2,
+            "success_rate": 66.67,
+            "total_funding": 400000
+          },
+          "McGill University": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": 398891
+          },
+          "Université de Montréal": {
+            "applications": 12,
+            "awards": 5,
+            "success_rate": 41.67,
+            "total_funding": 997190
+          },
+          "Université Laval": {
+            "applications": 8,
+            "awards": 7,
+            "success_rate": 87.5,
+            "total_funding": 1328628
+          },
+          "University of Saskatchewan": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": 199989
+          }
+        },
+        "2024": {
+          "University of Alberta": {
+            "applications": 5,
+            "awards": 5,
+            "success_rate": 100,
+            "total_funding": 998651
+          },
+          "University of Calgary": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": 399797
+          },
+          "University of British Columbia": {
+            "applications": 12,
+            "awards": 5,
+            "success_rate": 41.67,
+            "total_funding": 999879
+          },
+          "University of Manitoba": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 199938
+          },
+          "Dalhousie University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McMaster University": {
+            "applications": 5,
+            "awards": 3,
+            "success_rate": 60,
+            "total_funding": 598915
+          },
+          "Queen's University": {
+            "applications": 6,
+            "awards": 2,
+            "success_rate": 33.33,
+            "total_funding": 372965
+          },
+          "University of Ottawa": {
+            "applications": 18,
+            "awards": 9,
+            "success_rate": 50,
+            "total_funding": 1764887
+          },
+          "University of Toronto": {
+            "applications": 21,
+            "awards": 8,
+            "success_rate": 38.1,
+            "total_funding": 1573021
+          },
+          "University of Waterloo": {
+            "applications": 4,
+            "awards": 1,
+            "success_rate": 25,
+            "total_funding": 199735
+          },
+          "McGill University": {
+            "applications": 7,
+            "awards": 4,
+            "success_rate": 57.14,
+            "total_funding": 799745
+          },
+          "Université de Montréal": {
+            "applications": 4,
+            "awards": 1,
+            "success_rate": 25,
+            "total_funding": 199295
+          },
+          "Université Laval": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 796841
+          },
+          "University of Saskatchewan": {
+            "applications": 7,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          }
+        }
+      }
+    },
+    "partnership_grants": {
+      "label": "Partnership Grants",
+      "category": "partnerships",
+      "years": {
+        "2011": {
+          "Dalhousie University": {
+            "applications": 4,
+            "awards": 1,
+            "success_rate": 25,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": 10,
+            "awards": 1,
+            "success_rate": 10,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": 5,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": 4,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": 10,
+            "awards": 3,
+            "success_rate": 30,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": 7,
+            "awards": 1,
+            "success_rate": 14.29,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": 6,
+            "awards": 1,
+            "success_rate": 16.67,
+            "total_funding": null
+          }
+        },
+        "2012": {
+          "Dalhousie University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": 9,
+            "awards": 2,
+            "success_rate": 22.22,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": 6,
+            "awards": 1,
+            "success_rate": 16.67,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": 5,
+            "awards": 2,
+            "success_rate": 40,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": 4,
+            "awards": 1,
+            "success_rate": 25,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": 8,
+            "awards": 1,
+            "success_rate": 12.5,
+            "total_funding": null
+          }
+        },
+        "2013": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2014": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2015": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2016": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2017": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2018": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2019": {
+          "McGill University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2020": {
+          "University of Alberta": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of British Columbia": {
+            "applications": 6,
+            "awards": 1,
+            "success_rate": 16.67,
+            "total_funding": 2489577
+          },
+          "University of Manitoba": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Dalhousie University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McMaster University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 2499895
+          },
+          "Queen's University": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Ottawa": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Toronto": {
+            "applications": 5,
+            "awards": 2,
+            "success_rate": 40,
+            "total_funding": 4998195
+          },
+          "Western University": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 2500000
+          },
+          "McGill University": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Université de Montréal": {
+            "applications": 5,
+            "awards": 2,
+            "success_rate": 40,
+            "total_funding": 4994323
+          },
+          "Université Laval": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": 2500000
+          },
+          "University of Saskatchewan": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          }
+        },
+        "2021": {
+          "University of Alberta": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": 4981710
+          },
+          "University of Calgary": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of British Columbia": {
+            "applications": 4,
+            "awards": 1,
+            "success_rate": 25,
+            "total_funding": 2499940
+          },
+          "University of Manitoba": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Dalhousie University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Queen's University": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Ottawa": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Toronto": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Waterloo": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Western University": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": 2420732
+          },
+          "McGill University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 2500000
+          },
+          "Université de Montréal": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": 4996024
+          },
+          "Université Laval": {
+            "applications": 4,
+            "awards": 1,
+            "success_rate": 25,
+            "total_funding": 2492097
+          },
+          "University of Saskatchewan": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 2500000
+          }
+        },
+        "2022": {
+          "University of Alberta": {
+            "applications": 4,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Calgary": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of British Columbia": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 2298680
+          },
+          "University of Manitoba": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Dalhousie University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 2495299
+          },
+          "McMaster University": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Queen's University": {
+            "applications": 2,
+            "awards": 2,
+            "success_rate": 100,
+            "total_funding": 4161735
+          },
+          "University of Ottawa": {
+            "applications": 5,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Toronto": {
+            "applications": 7,
+            "awards": 2,
+            "success_rate": 28.57,
+            "total_funding": 5000000
+          },
+          "University of Waterloo": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Université Laval": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": 2500000
+          }
+        },
+        "2023": {
+          "University of Alberta": {
+            "applications": 8,
+            "awards": 4,
+            "success_rate": 50,
+            "total_funding": 9996035
+          },
+          "University of Calgary": {
+            "applications": 6,
+            "awards": 3,
+            "success_rate": 50,
+            "total_funding": 7496035
+          },
+          "University of British Columbia": {
+            "applications": 5,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Manitoba": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 2500000
+          },
+          "McMaster University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 0
+          },
+          "Queen's University": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 2500000
+          },
+          "University of Ottawa": {
+            "applications": 5,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Toronto": {
+            "applications": 10,
+            "awards": 2,
+            "success_rate": 20,
+            "total_funding": 4998745
+          },
+          "University of Waterloo": {
+            "applications": 5,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Western University": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McGill University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 2500000
+          },
+          "Université de Montréal": {
+            "applications": 4,
+            "awards": 3,
+            "success_rate": 75,
+            "total_funding": 7495352
+          },
+          "Université Laval": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 2480888
+          },
+          "University of Saskatchewan": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          }
+        },
+        "2024": {
+          "University of Alberta": {
+            "applications": 3,
+            "awards": 2,
+            "success_rate": 66.67,
+            "total_funding": 4998404
+          },
+          "University of Calgary": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 2500000
+          },
+          "University of British Columbia": {
+            "applications": 5,
+            "awards": 2,
+            "success_rate": 40,
+            "total_funding": 4630061
+          },
+          "University of Manitoba": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Dalhousie University": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Queen's University": {
+            "applications": 3,
+            "awards": 2,
+            "success_rate": 66.67,
+            "total_funding": 4999595
+          },
+          "University of Ottawa": {
+            "applications": 8,
+            "awards": 3,
+            "success_rate": 37.5,
+            "total_funding": 4997550
+          },
+          "University of Toronto": {
+            "applications": 10,
+            "awards": 2,
+            "success_rate": 20,
+            "total_funding": 4999171
+          },
+          "University of Waterloo": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 2499630
+          },
+          "McGill University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "Université de Montréal": {
+            "applications": 4,
+            "awards": 1,
+            "success_rate": 25,
+            "total_funding": 2499979
+          },
+          "Université Laval": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "University of Saskatchewan": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          }
+        }
+      }
+    },
+    "partnership_engage_grants": {
+      "label": "Partnership Engage Grants",
+      "category": "partnerships",
+      "years": {
+        "2017": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 8,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 3,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 7,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2018": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 9,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 16,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 10,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 12,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 20,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2019": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 7,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 8,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 15,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 2,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 9,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 5,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 1,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 4,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": null,
+            "awards": 6,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2020": {
+          "University of Alberta": {
+            "applications": 5,
+            "awards": 2,
+            "success_rate": 40,
+            "total_funding": 49998
+          },
+          "University of Calgary": {
+            "applications": 14,
+            "awards": 10,
+            "success_rate": 71.43,
+            "total_funding": 237464
+          },
+          "University of British Columbia": {
+            "applications": 13,
+            "awards": 7,
+            "success_rate": 53.85,
+            "total_funding": 174139
+          },
+          "University of Manitoba": {
+            "applications": 5,
+            "awards": 3,
+            "success_rate": 60,
+            "total_funding": 66864
+          },
+          "Dalhousie University": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 97172
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McMaster University": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 99034
+          },
+          "Queen's University": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": 25000
+          },
+          "University of Ottawa": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": 48992
+          },
+          "University of Toronto": {
+            "applications": 10,
+            "awards": 10,
+            "success_rate": 100,
+            "total_funding": 243341
+          },
+          "University of Waterloo": {
+            "applications": 14,
+            "awards": 11,
+            "success_rate": 78.57,
+            "total_funding": 272051
+          },
+          "McGill University": {
+            "applications": 7,
+            "awards": 6,
+            "success_rate": 85.71,
+            "total_funding": 143360
+          },
+          "Université de Montréal": {
+            "applications": 15,
+            "awards": 13,
+            "success_rate": 86.67,
+            "total_funding": 321536
+          },
+          "Université Laval": {
+            "applications": 28,
+            "awards": 24,
+            "success_rate": 85.71,
+            "total_funding": 587098
+          },
+          "University of Saskatchewan": {
+            "applications": 2,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          }
+        },
+        "2021": {
+          "University of Alberta": {
+            "applications": 5,
+            "awards": 4,
+            "success_rate": 80,
+            "total_funding": 99795
+          },
+          "University of Calgary": {
+            "applications": 8,
+            "awards": 7,
+            "success_rate": 87.5,
+            "total_funding": 158581
+          },
+          "University of British Columbia": {
+            "applications": 18,
+            "awards": 16,
+            "success_rate": 88.89,
+            "total_funding": 387705
+          },
+          "University of Manitoba": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 99267
+          },
+          "Dalhousie University": {
+            "applications": 9,
+            "awards": 6,
+            "success_rate": 66.67,
+            "total_funding": 148796
+          },
+          "Western University": {
+            "applications": 2,
+            "awards": 2,
+            "success_rate": 100,
+            "total_funding": 42178
+          },
+          "McMaster University": {
+            "applications": 8,
+            "awards": 8,
+            "success_rate": 100,
+            "total_funding": 190629
+          },
+          "Queen's University": {
+            "applications": 8,
+            "awards": 8,
+            "success_rate": 100,
+            "total_funding": 192759
+          },
+          "University of Ottawa": {
+            "applications": 12,
+            "awards": 9,
+            "success_rate": 75,
+            "total_funding": 201353
+          },
+          "University of Toronto": {
+            "applications": 13,
+            "awards": 12,
+            "success_rate": 92.31,
+            "total_funding": 288099
+          },
+          "University of Waterloo": {
+            "applications": 5,
+            "awards": 4,
+            "success_rate": 80,
+            "total_funding": 99354
+          },
+          "McGill University": {
+            "applications": 9,
+            "awards": 7,
+            "success_rate": 77.78,
+            "total_funding": 156668
+          },
+          "Université de Montréal": {
+            "applications": 11,
+            "awards": 10,
+            "success_rate": 90.91,
+            "total_funding": 248133
+          },
+          "Université Laval": {
+            "applications": 23,
+            "awards": 20,
+            "success_rate": 86.96,
+            "total_funding": 496477
+          },
+          "University of Saskatchewan": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": 49922
+          }
+        },
+        "2022": {
+          "University of Alberta": {
+            "applications": 10,
+            "awards": 10,
+            "success_rate": 100,
+            "total_funding": 248124
+          },
+          "University of Calgary": {
+            "applications": 15,
+            "awards": 12,
+            "success_rate": 80,
+            "total_funding": 285645
+          },
+          "University of British Columbia": {
+            "applications": 7,
+            "awards": 7,
+            "success_rate": 100,
+            "total_funding": 146121
+          },
+          "University of Manitoba": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 25000
+          },
+          "Dalhousie University": {
+            "applications": 2,
+            "awards": 2,
+            "success_rate": 100,
+            "total_funding": 50000
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 24782
+          },
+          "McMaster University": {
+            "applications": 6,
+            "awards": 6,
+            "success_rate": 100,
+            "total_funding": 149766
+          },
+          "Queen's University": {
+            "applications": 4,
+            "awards": 4,
+            "success_rate": 100,
+            "total_funding": 95039
+          },
+          "University of Ottawa": {
+            "applications": 13,
+            "awards": 12,
+            "success_rate": 92.31,
+            "total_funding": 294366
+          },
+          "University of Toronto": {
+            "applications": 12,
+            "awards": 10,
+            "success_rate": 83.33,
+            "total_funding": 245945
+          },
+          "University of Waterloo": {
+            "applications": 9,
+            "awards": 9,
+            "success_rate": 100,
+            "total_funding": 221192
+          },
+          "McGill University": {
+            "applications": 6,
+            "awards": 5,
+            "success_rate": 83.33,
+            "total_funding": 122397
+          },
+          "Université de Montréal": {
+            "applications": 12,
+            "awards": 12,
+            "success_rate": 100,
+            "total_funding": 297224
+          },
+          "Université Laval": {
+            "applications": 18,
+            "awards": 17,
+            "success_rate": 94.44,
+            "total_funding": 420754
+          },
+          "University of Saskatchewan": {
+            "applications": 1,
+            "awards": 1,
+            "success_rate": 100,
+            "total_funding": 24944
+          }
+        },
+        "2023": {
+          "University of Alberta": {
+            "applications": 8,
+            "awards": 5,
+            "success_rate": 62.5,
+            "total_funding": 122785
+          },
+          "University of Calgary": {
+            "applications": 13,
+            "awards": 10,
+            "success_rate": 76.92,
+            "total_funding": 247645
+          },
+          "University of British Columbia": {
+            "applications": 8,
+            "awards": 6,
+            "success_rate": 75,
+            "total_funding": 147999
+          },
+          "University of Manitoba": {
+            "applications": 6,
+            "awards": 3,
+            "success_rate": 50,
+            "total_funding": 72201
+          },
+          "Dalhousie University": {
+            "applications": 12,
+            "awards": 8,
+            "success_rate": 66.67,
+            "total_funding": 168601
+          },
+          "McMaster University": {
+            "applications": 11,
+            "awards": 7,
+            "success_rate": 63.64,
+            "total_funding": 174177
+          },
+          "Queen's University": {
+            "applications": 7,
+            "awards": 5,
+            "success_rate": 71.43,
+            "total_funding": 123319
+          },
+          "University of Ottawa": {
+            "applications": 9,
+            "awards": 7,
+            "success_rate": 77.78,
+            "total_funding": 174883
+          },
+          "University of Toronto": {
+            "applications": 22,
+            "awards": 14,
+            "success_rate": 63.64,
+            "total_funding": 341187
+          },
+          "University of Waterloo": {
+            "applications": 9,
+            "awards": 7,
+            "success_rate": 77.78,
+            "total_funding": 172987
+          },
+          "Western University": {
+            "applications": 8,
+            "awards": 5,
+            "success_rate": 62.5,
+            "total_funding": 121508
+          },
+          "McGill University": {
+            "applications": 11,
+            "awards": 9,
+            "success_rate": 81.82,
+            "total_funding": 223285
+          },
+          "Université de Montréal": {
+            "applications": 11,
+            "awards": 7,
+            "success_rate": 63.64,
+            "total_funding": 173404
+          },
+          "Université Laval": {
+            "applications": 24,
+            "awards": 17,
+            "success_rate": 70.83,
+            "total_funding": 418187
+          },
+          "University of Saskatchewan": {
+            "applications": 2,
+            "awards": 1,
+            "success_rate": 50,
+            "total_funding": 24952
+          }
+        },
+        "2024": {
+          "University of Alberta": {
+            "applications": 11,
+            "awards": 7,
+            "success_rate": 63.64,
+            "total_funding": 170750
+          },
+          "University of Calgary": {
+            "applications": 7,
+            "awards": 5,
+            "success_rate": 71.43,
+            "total_funding": 121857
+          },
+          "University of British Columbia": {
+            "applications": 13,
+            "awards": 9,
+            "success_rate": 69.23,
+            "total_funding": 223223
+          },
+          "University of Manitoba": {
+            "applications": 3,
+            "awards": 1,
+            "success_rate": 33.33,
+            "total_funding": 24795
+          },
+          "Dalhousie University": {
+            "applications": 11,
+            "awards": 8,
+            "success_rate": 72.73,
+            "total_funding": 198821
+          },
+          "Western University": {
+            "applications": 1,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": 0
+          },
+          "McMaster University": {
+            "applications": 6,
+            "awards": 3,
+            "success_rate": 50,
+            "total_funding": 74838
+          },
+          "Queen's University": {
+            "applications": 12,
+            "awards": 8,
+            "success_rate": 66.67,
+            "total_funding": 197899
+          },
+          "University of Ottawa": {
+            "applications": 16,
+            "awards": 7,
+            "success_rate": 43.75,
+            "total_funding": 172165
+          },
+          "University of Toronto": {
+            "applications": 28,
+            "awards": 20,
+            "success_rate": 71.43,
+            "total_funding": 488358
+          },
+          "University of Waterloo": {
+            "applications": 5,
+            "awards": 3,
+            "success_rate": 60,
+            "total_funding": 74814
+          },
+          "McGill University": {
+            "applications": 11,
+            "awards": 6,
+            "success_rate": 54.55,
+            "total_funding": 145572
+          },
+          "Université de Montréal": {
+            "applications": 25,
+            "awards": 21,
+            "success_rate": 84,
+            "total_funding": 521796
+          },
+          "Université Laval": {
+            "applications": 33,
+            "awards": 20,
+            "success_rate": 60.61,
+            "total_funding": 497961
+          },
+          "University of Saskatchewan": {
+            "applications": 5,
+            "awards": 5,
+            "success_rate": 100,
+            "total_funding": 123373
+          }
+        }
+      }
+    },
     "cgs_masters": {
       "label": "CGS Masters",
       "category": "training",
       "years": {
+        "2003": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 17,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 36,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 31,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 39,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 17,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 26,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 23,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 49,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 11,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 37,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 27,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2004": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 17,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 42,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 34,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 46,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 19,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 30,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 27,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 60,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 8,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 44,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 33,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
         "2005": {
           "Dalhousie University": {
             "applications": null,
@@ -5358,6 +10574,178 @@
       "label": "CGS Doctoral",
       "category": "training",
       "years": {
+        "2004": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2005": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
         "2007": {
           "Dalhousie University": {
             "applications": 6,
@@ -7756,6 +13144,276 @@
             "total_funding": null
           }
         },
+        "2003": {
+          "Dalhousie University": {
+            "applications": 33,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": 185,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": 156,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": 116,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": 89,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": 139,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": 152,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": 76,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": 465,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": 51,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": 43,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 33,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 135,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 91,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": 175,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          }
+        },
+        "2005": {
+          "Dalhousie University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": null,
+            "awards": 0,
+            "success_rate": null,
+            "total_funding": null
+          }
+        },
+        "2006": {
+          "Dalhousie University": {
+            "applications": 55,
+            "awards": 7,
+            "success_rate": 12.73,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": 158,
+            "awards": 19,
+            "success_rate": 12.03,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": 223,
+            "awards": 23,
+            "success_rate": 10.31,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": 251,
+            "awards": 33,
+            "success_rate": 13.15,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": 143,
+            "awards": 17,
+            "success_rate": 11.89,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": 195,
+            "awards": 22,
+            "success_rate": 11.28,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": 162,
+            "awards": 24,
+            "success_rate": 14.81,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": 534,
+            "awards": 61,
+            "success_rate": 11.42,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": 74,
+            "awards": 8,
+            "success_rate": 10.81,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": 227,
+            "awards": 23,
+            "success_rate": 10.13,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 112,
+            "awards": 19,
+            "success_rate": 16.96,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": 225,
+            "awards": 33,
+            "success_rate": 14.67,
+            "total_funding": null
+          }
+        },
         "2007": {
           "Dalhousie University": {
             "applications": 51,
@@ -10145,6 +15803,276 @@
             "applications": 18,
             "awards": 6,
             "success_rate": 33.33,
+            "total_funding": null
+          }
+        },
+        "2003": {
+          "Dalhousie University": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": 18,
+            "awards": 5,
+            "success_rate": 27.78,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": 26,
+            "awards": 15,
+            "success_rate": 57.69,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": 16,
+            "awards": 2,
+            "success_rate": 12.5,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": 27,
+            "awards": 7,
+            "success_rate": 25.93,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": 9,
+            "awards": 3,
+            "success_rate": 33.33,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": 19,
+            "awards": 7,
+            "success_rate": 36.84,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": 63,
+            "awards": 14,
+            "success_rate": 22.22,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": 13,
+            "awards": 2,
+            "success_rate": 15.38,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": 13,
+            "awards": 2,
+            "success_rate": 15.38,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 4,
+            "awards": 2,
+            "success_rate": 50,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": 22,
+            "awards": 10,
+            "success_rate": 45.45,
+            "total_funding": null
+          }
+        },
+        "2004": {
+          "Dalhousie University": {
+            "applications": 6,
+            "awards": 2,
+            "success_rate": 33.33,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": 16,
+            "awards": 5,
+            "success_rate": 31.25,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": 20,
+            "awards": 5,
+            "success_rate": 25,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": 35,
+            "awards": 15,
+            "success_rate": 42.86,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": 15,
+            "awards": 6,
+            "success_rate": 40,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": 14,
+            "awards": 3,
+            "success_rate": 21.43,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": 16,
+            "awards": 6,
+            "success_rate": 37.5,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": 69,
+            "awards": 24,
+            "success_rate": 34.78,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": 5,
+            "awards": 3,
+            "success_rate": 60,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": 14,
+            "awards": 3,
+            "success_rate": 21.43,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 3,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of British Columbia": {
+            "applications": 31,
+            "awards": 7,
+            "success_rate": 22.58,
+            "total_funding": null
+          }
+        },
+        "2005": {
+          "Dalhousie University": {
+            "applications": 4,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Université Laval": {
+            "applications": 19,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "McGill University": {
+            "applications": 27,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Université de Montréal": {
+            "applications": 36,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "McMaster University": {
+            "applications": 19,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Ottawa": {
+            "applications": 13,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Queen's University": {
+            "applications": 7,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Toronto": {
+            "applications": 72,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Waterloo": {
+            "applications": 5,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "Western University": {
+            "applications": 20,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Manitoba": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Saskatchewan": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Alberta": {
+            "applications": 0,
+            "awards": 0,
+            "success_rate": 0,
+            "total_funding": null
+          },
+          "University of Calgary": {
+            "applications": 11,
+            "awards": 0,
+            "success_rate": 0,
             "total_funding": null
           }
         },

@@ -11,7 +11,7 @@ function HeatmapCell({ value, maxVal }) {
 }
 
 export default function U15ComparisonSection() {
-  const compKeys = ['insight_grants', 'insight_development_grants', 'sshrc_doctoral', 'postdoctoral'];
+  const compKeys = ['insight_grants', 'insight_development_grants', 'connection_grants', 'partnership_development_grants', 'sshrc_doctoral', 'postdoctoral'];
 
   // Heatmap data
   const heatmapData = useMemo(() => {
