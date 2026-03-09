@@ -70,5 +70,20 @@
     "challenges": "The name matching bug was subtle: 'King's University College at Western University' contains the substring 'western university', so it matched before the real Western row appeared in the spreadsheet. This caused Insight Grants 2018-2024 to show ~5 applications (King's College data) instead of Western's actual ~60 applications. Older files (1997-2008) used 'SR/TR' headers with '#' indicators for success rates, causing decimal success rates (0.5) to be misread as award counts. Connection grant files placed 'Awards' columns before 'Applications' (which were aggregate totals), breaking the parser's column-ordering assumptions.",
     "human_input": "Flagged that 'Something is wrong with the Western data' after noticing implausible 100% success rates and tiny application counts.",
     "ai_contribution": "Changed name matching from includes() to startsWith() (after stripping common prefixes) to prevent affiliated colleges from shadowing parent universities. Added SR/TR pattern recognition, expanded header scan windows, and improved awards-only detection for reversed column layouts. Added validation for fractional awards, impossible rate/award combinations, and province header exclusions."
+  },
+  {
+    "timestamp": "2026-03-09T11:00:00-05:00",
+    "phase": "data-quality",
+    "description": "Fixed missing Insight Grants data for 2014-2019. These years used 'Projects/Projets' column headers instead of 'Applications/Demandes', causing the parser to either miss them entirely (2018-2019) or fail to extract success rates (2014-2017). Implemented back-calculation of applications from awards and success rates.",
+    "challenges": "Two separate issues: (1) 2018-2019 files used 'Projects/Projets' without any 'Awards' or 'Applications' keywords, so the hasAppsOrAwards check failed entirely. (2) 2014-2017 files were detected as awards-only but the success rate column wasn't extracted (hardcoded to -1), preventing back-calculation of applications.",
+    "human_input": "Identified that 'There is no data on Insights between 2013 and 2019' from the dashboard trend lines.",
+    "ai_contribution": "Added 'projects'/'projets' to keyword detection and group header matching. Modified awards-only branch to detect and extract success rate columns. Added back-calculation logic: applications = awards / (successRate / 100). All 13 years (2012-2024) now have complete data."
+  },
+  {
+    "timestamp": "2026-03-09T12:00:00-05:00",
+    "phase": "dashboard-build",
+    "description": "Added Analysis page with data-driven essay examining Waterloo's SSHRC performance relative to U15 peers. Includes key metric cards, ranking tables, strengths/weaknesses assessment, and strategic implications. All statistics computed dynamically from the data.",
+    "human_input": "Requested analysis of Waterloo's strengths and weaknesses vis-a-vis U15 peers, presented as an essay on a new Analysis tab.",
+    "ai_contribution": "Analyzed all 11 competition types across up to 30 years of data. Created AnalysisPage.jsx with dynamic computation of rankings, averages, and trends. Key finding: Waterloo's challenge is primarily one of scale (low application volume) not quality (success rates are competitive or above average in flagship programs)."
   }
 ]
