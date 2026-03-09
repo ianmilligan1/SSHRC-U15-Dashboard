@@ -39,4 +39,4 @@ npm run fetch-data   # Re-download and parse SSHRC Excel files
 
 ## About
 
-Built by Ian Milligan, Professor of History & AVP Research Oversight and Integrity, University of Waterloo. Built with Claude Code (Anthropic). See the [About page](https://ianmilligan1.github.io/SSHRC-U15-Dasboard/#/about) for full methodology and development process documentation.
+Built by Ian Milligan, Professor of History & AVP Research Oversight and Integrity, University of Waterloo. Built with Claude Code (Anthropic). See the [About page](https://ianmilligan1.github.io/SSHRC-U15-Dashboard/#/about) for full methodology and development process documentation.
