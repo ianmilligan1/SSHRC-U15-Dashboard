@@ -1,16 +1,8 @@
-import { useState, useEffect } from 'react';
 import DevelopmentLog from './DevelopmentLog';
 import { data } from '../data/dataUtils';
+import promptText from '../data/build-prompt.md?raw';
 
 export default function AboutPage() {
-  const [promptText, setPromptText] = useState('');
-
-  useEffect(() => {
-    fetch(new URL('../data/build-prompt.md', import.meta.url).href)
-      .then(r => r.text())
-      .then(setPromptText)
-      .catch(() => setPromptText('(Prompt file could not be loaded)'));
-  }, []);
 
   return (
     <div className="about-page">
