@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/SSHRC-U15-Dasboard/',
+  base: '/SSHRC-U15-Dashboard/',
   assetsInclude: ['**/*.md'],
 })
