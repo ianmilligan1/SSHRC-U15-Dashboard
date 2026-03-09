@@ -1,0 +1,76 @@
+[
+  {
+    "timestamp": "2026-03-08T20:02:00-04:00",
+    "phase": "data-pipeline",
+    "description": "Scraped SSHRC statistics page to extract all Excel file URLs. Found 197 Excel files across 7 competition categories spanning 1995-2024.",
+    "challenges": "SSHRC website has SSL certificate issues requiring relaxed SSL verification. URLs extracted via HTML parsing of href attributes.",
+    "human_input": "Directed the overall project structure and competition categories to target.",
+    "ai_contribution": "Wrote curl-based scraper, classified 147 target files into 7 competition types."
+  },
+  {
+    "timestamp": "2026-03-08T20:15:00-04:00",
+    "phase": "data-pipeline",
+    "description": "Built initial data processing script and downloaded all 147 Excel files. First pass at parsing extracted data but revealed major column mapping issues.",
+    "challenges": "Excel spreadsheet formats vary significantly across years. Newer files (2018+) have multi-level column headers with Projects/Researchers/Total sub-columns. Older files (pre-2010) use ALL CAPS short university names like 'WATERLOO' instead of 'University of Waterloo'.",
+    "ai_contribution": "Created Node.js processing pipeline using xlsx library. Identified that column detection needed to handle group headers (Applications/Awards) appearing on different rows than the institution label."
+  },
+  {
+    "timestamp": "2026-03-08T20:30:00-04:00",
+    "phase": "debugging",
+    "description": "Fixed critical column detection bugs. Title rows like 'Subventions Savoir 2024' were triggering false header matches because they contained the French word for 'grants'. Also fixed province-name matching where 'Alberta' (province aggregate) was being confused with 'University of Alberta'.",
+    "challenges": "Five separate bugs in header detection: (1) Title row keyword false positives, (2) province vs university name ambiguity, (3) applications vs awards columns misidentified when multiple # columns exist, (4) success rates stored as decimals vs percentages, (5) CGS-D incorrectly treated as having applications when it's awards-only.",
+    "ai_contribution": "Implemented confidence-based university matching (high/low) to prefer specific names over short names. Added column-range detection using Application/Award group headers to correctly assign sub-columns."
+  },
+  {
+    "timestamp": "2026-03-08T20:45:00-04:00",
+    "phase": "data-pipeline",
+    "description": "Final data pipeline produces clean JSON with 7 competition types covering up to 30 years of data. All 15 U15 universities correctly identified across all years with data. First commit: full dashboard built.",
+    "challenges": "Some older files (2003-2004) have formats too different to parse automatically. A few files have inconsistent column structures that required special-case handling.",
+    "ai_contribution": "Generated 342KB JSON data file with validated extraction across 147 spreadsheets. Scaffolded full React application with 10+ components, CSS design system, and data utility layer."
+  },
+  {
+    "timestamp": "2026-03-08T20:45:00-04:00",
+    "phase": "dashboard-build",
+    "description": "Built all dashboard visualization components: KPI cards, line charts, bar charts, ranking tables, heatmap, scatter plot, and historical trends. Each chart uses UW as bold black line against grey U15 peers. Built About page with development log timeline, collapsible build prompt viewer, and methodology documentation.",
+    "human_input": "Specified design requirements: black/white/grey palette, DM Sans + Instrument Serif typography, clean institutional look.",
+    "ai_contribution": "Created reusable chart components with Recharts, responsive layouts, interactive tooltips showing all 15 universities, data utility functions for cross-competition analysis, and hash routing for GitHub Pages compatibility."
+  },
+  {
+    "timestamp": "2026-03-08T21:03:00-04:00",
+    "phase": "iteration",
+    "description": "Restructured dashboard from single-page to multi-page layout: Overview, Insight, Partnerships, Talent, and About. Added four new partnership competition types (Connection Grants, Partnership Development Grants, Partnership Grants, Partnership Engage Grants) by discovering additional SSHRC data files. Redesigned trend line charts for clearer UW visibility with interactive peer comparison buttons.",
+    "challenges": "Partnership files (PDG, PG) store institution data on sheet '- 2 -' instead of '- 1 -'. Required rewriting sheet detection to scan content headers for 'administering organization' patterns rather than relying on sheet name conventions. Balancing visibility of UW against 14 other universities on the same chart.",
+    "human_input": "Directed page structure (Insight, Partnerships, Talent groupings). Identified that Connection and Partnership grant data was available on the SSHRC statistics page. Requested ability to 'CLEARLY see the trend lines' with 'Highlight UW + top peers' approach.",
+    "ai_contribution": "Scraped and integrated 50 additional Excel files across 4 new competition types. Built three new page components with competition-specific sections. Rewrote findOrgSheet() to scan sheet content headers. Implemented peer comparison toggle buttons with a 6-color palette. Added small-sample annotations (dagger symbol) for rows with 5 or fewer applications."
+  },
+  {
+    "timestamp": "2026-03-08T21:22:00-04:00",
+    "phase": "data-quality",
+    "description": "Investigated and fixed critical Western University data errors. Three root causes identified: (1) 'King's University College at Western University' was falsely matching as 'Western University' via substring matching, (2) older files used '#' indicators for success rate columns instead of count columns, (3) connection grant files had a reversed column layout where aggregate totals were misread as per-institution data.",
+    "challenges": "The name matching bug was subtle: 'King's University College at Western University' contains the substring 'western university', so it matched before the real Western row appeared in the spreadsheet. This caused Insight Grants 2018-2024 to show ~5 applications (King's College data) instead of Western's actual ~60 applications. Older files (1997-2008) used 'SR/TR' headers with '#' indicators for success rates, causing decimal success rates (0.5) to be misread as award counts. Connection grant files placed 'Awards' columns before 'Applications' (which were aggregate totals), breaking the parser's column-ordering assumptions.",
+    "human_input": "Flagged that 'Something is wrong with the Western data' after noticing implausible 100% success rates and tiny application counts.",
+    "ai_contribution": "Changed name matching from includes() to startsWith() (after stripping common prefixes) to prevent affiliated colleges from shadowing parent universities. Added SR/TR pattern recognition, expanded header scan windows, and improved awards-only detection for reversed column layouts. Added validation for fractional awards, impossible rate/award combinations, and province header exclusions."
+  },
+  {
+    "timestamp": "2026-03-08T21:51:00-04:00",
+    "phase": "data-quality",
+    "description": "Fixed missing Insight Grants data for 2014-2019. These years used 'Projects/Projets' column headers instead of 'Applications/Demandes', causing the parser to either miss them entirely (2018-2019) or fail to extract success rates (2014-2017). Implemented back-calculation of applications from awards and success rates.",
+    "challenges": "Two separate issues: (1) 2018-2019 files used 'Projects/Projets' without any 'Awards' or 'Applications' keywords, so the hasAppsOrAwards check failed entirely. (2) 2014-2017 files were detected as awards-only but the success rate column wasn't extracted (hardcoded to -1), preventing back-calculation of applications.",
+    "human_input": "Identified that 'There is no data on Insights between 2013 and 2019' from the dashboard trend lines.",
+    "ai_contribution": "Added 'projects'/'projets' to keyword detection and group header matching. Modified awards-only branch to detect and extract success rate columns. Added back-calculation logic: applications = awards / (successRate / 100). All 13 years (2012-2024) now have complete data."
+  },
+  {
+    "timestamp": "2026-03-08T22:03:00-04:00",
+    "phase": "dashboard-build",
+    "description": "Added Analysis page with data-driven essay examining Waterloo's SSHRC performance relative to U15 peers. Includes key metric cards, ranking tables, strengths/weaknesses assessment, and strategic implications. All statistics computed dynamically from the data.",
+    "human_input": "Requested analysis of Waterloo's strengths and weaknesses vis-a-vis U15 peers, presented as an essay on a new Analysis tab.",
+    "ai_contribution": "Analyzed all 11 competition types across up to 30 years of data. Created AnalysisPage.jsx with dynamic computation of rankings, averages, and trends. Key finding: Waterloo's challenge is primarily one of scale (low application volume) not quality (success rates are competitive or above average in flagship programs)."
+  },
+  {
+    "timestamp": "2026-03-08T22:10:00-04:00",
+    "phase": "documentation",
+    "description": "Updated About page with accurate build narrative reflecting the single-evening timeline. Added collapsible refinement prompts section showing the exact 5 short human instructions that drove all post-initial development. Added 'What the human brought' section emphasizing the complementary roles of domain knowledge and AI capability.",
+    "human_input": "Requested accurate documentation of the build process, emphasizing this as a prototype demonstrating Claude Code's capabilities.",
+    "ai_contribution": "Rewrote About page with three-session narrative, embedded refinement prompts with blockquote styling, and composed the 'Why This Matters' section with specific examples of human vs AI contributions."
+  }
+]
