@@ -276,7 +276,8 @@ function detectColumns(data, competitionType) {
         // Only check for app/award keywords in data columns (j > 0),
         // not in column 0 which often contains title text with false matches
         if (j > 0 && (cell.includes('applic') || cell.includes('demande') ||
-            cell.includes('awards') || cell.includes('subventions'))) {
+            cell.includes('awards') || cell.includes('subventions') ||
+            cell.includes('projects') || cell.includes('projets'))) {
           hasAppsOrAwards = true;
         }
       }
@@ -308,7 +309,8 @@ function detectColumns(data, competitionType) {
         if ((cell.includes('applic') || cell.includes('demande') || cell === 'app.' || cell === 'dem.') && appsStartCol < 0) {
           appsStartCol = j;
         }
-        if ((cell.includes('awards') || cell.includes('subventions') || cell.includes('bourses')) && awardsStartCol < 0) {
+        if ((cell.includes('awards') || cell.includes('subventions') || cell.includes('bourses') ||
+             cell.startsWith('projects') || cell.startsWith('projets')) && awardsStartCol < 0) {
           awardsStartCol = j;
         }
         if ((cell.includes('success rate') || cell.includes('taux de réussite') || cell.includes('taux de reussite') ||
@@ -362,6 +364,24 @@ function detectColumns(data, competitionType) {
           if (indicators[j] === '#') { awardsNumCol = j; break; }
         }
       }
+
+      // Also detect success rate column in awards-only mode
+      // (e.g., Insight Grants 2014-2019 have awards + success rate but no applications)
+      let successRateCol = -1;
+      if (successRateStartCol >= 0) {
+        successRateCol = successRateStartCol;
+        // Check if there's a % indicator near the success rate header
+        if (indicatorRowIdx >= 0) {
+          const indicators = data[indicatorRowIdx].map(c => String(c).trim());
+          for (let j = successRateStartCol; j <= successRateStartCol + 2 && j < indicators.length; j++) {
+            if (indicators[j] === '%' || indicators[j].includes('%')) {
+              successRateCol = j;
+              break;
+            }
+          }
+        }
+      }
+
       return {
         dataStartRow,
         instCol,
@@ -369,7 +389,7 @@ function detectColumns(data, competitionType) {
         appsTotalCol: -1,
         awardsNumCol,
         awardsTotalCol: -1,
-        successRateCol: -1,
+        successRateCol,
       };
     }
 
@@ -513,10 +533,29 @@ function extractU15Data(data, colInfo, competitionType) {
     // Awards-only format (CGS-M, CGS-D, or any competition with appsNumCol = -1)
     if (colInfo.appsNumCol < 0) {
       const awards = parseNumber(row[colInfo.awardsNumCol]) || 0;
+
+      // Extract success rate if available (e.g., Insight Grants 2014-2019)
+      let successRate = null;
+      let applications = null;
+      if (colInfo.successRateCol >= 0) {
+        const rawRate = parseNumber(row[colInfo.successRateCol]);
+        if (rawRate !== null) {
+          if (rawRate > 0 && rawRate <= 1) {
+            successRate = Math.round(rawRate * 10000) / 100;
+          } else if (rawRate > 1 && rawRate <= 100) {
+            successRate = Math.round(rawRate * 100) / 100;
+          }
+        }
+        // Back-calculate applications from awards and success rate
+        if (successRate > 0 && awards > 0) {
+          applications = Math.round(awards / (successRate / 100));
+        }
+      }
+
       results[canonical] = {
-        applications: null,
+        applications,
         awards,
-        success_rate: null,
+        success_rate: successRate,
         total_funding: null,
       };
       confidence[canonical] = conf;
