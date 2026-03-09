@@ -31,7 +31,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <p>Data source: <a href="https://sshrc-crsh.canada.ca/en/competition-results/statistics.aspx" target="_blank" rel="noreferrer">SSHRC Competition Statistics</a> (sshrc-crsh.canada.ca). Dashboard built for internal planning purposes.</p>
-          <p style={{ marginTop: '0.25rem' }}>Built with Claude Code (Anthropic). <a href="https://github.com/ianmilligan1/SSHRC-U15-Dasboard" target="_blank" rel="noreferrer">GitHub</a></p>
+          <p style={{ marginTop: '0.25rem' }}>Built with Claude Code (Anthropic). <a href="https://github.com/ianmilligan1/SSHRC-U15-Dashboard" target="_blank" rel="noreferrer">GitHub</a></p>
         </footer>
       </div>
     </HashRouter>
