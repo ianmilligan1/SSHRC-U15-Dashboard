@@ -27,18 +27,23 @@ export default function AboutPage() {
         Excel spreadsheets on their website.
       </p>
       <p>
-        <strong>Data coverage:</strong> The dashboard includes data from seven competition categories
-        spanning up to 30 years (1995-2024): Insight Grants, Insight Development Grants,
-        Standard Research Grants (predecessor to Insight Grants), CGS Masters, CGS Doctoral,
-        SSHRC Doctoral Awards, and Postdoctoral Fellowships.
+        <strong>Data coverage:</strong> The dashboard includes data from eleven competition categories
+        spanning up to 30 years (1995-2024), organized across four pages:
       </p>
+      <ul style={{ marginBottom: '1rem', lineHeight: 1.8 }}>
+        <li><strong>Insight:</strong> Insight Grants, Insight Development Grants, and the predecessor Standard Research Grants</li>
+        <li><strong>Partnerships:</strong> Connection Grants, Partnership Development Grants, Partnership Grants, and Partnership Engage Grants</li>
+        <li><strong>Talent:</strong> CGS Masters, CGS Doctoral, SSHRC Doctoral Awards, and Postdoctoral Fellowships</li>
+      </ul>
       <p>
         <strong>Caveats:</strong> Spreadsheet formats vary significantly across years, which
         means some data points may be missing or imprecise for older years. The Standard Research
         Grant program was the predecessor to Insight Grants and is shown as a continuous series
         on relevant charts. Some competitions (CGS-M, CGS-D) report only awards, not
         applications, so success rates are not available for these. University name matching
-        across decades of data uses fuzzy matching which may occasionally misidentify institutions.
+        across decades of data uses pattern matching which may occasionally misidentify institutions.
+        Rows marked with a dagger (<strong>&dagger;</strong>) indicate small sample sizes (5 or fewer
+        applications) where success rates may not be meaningful.
       </p>
 
       <h2>How This Was Built</h2>
@@ -47,14 +52,21 @@ export default function AboutPage() {
       </p>
       <p>
         The build process involved three main phases: (1) a data pipeline that downloads and
-        parses 147 Excel spreadsheets from SSHRC's website, normalizing university names and
+        parses nearly 200 Excel spreadsheets from SSHRC's website, normalizing university names and
         extracting competition statistics into a single JSON file; (2) a React dashboard built
         with Vite and Recharts that visualizes the data with interactive charts, tables, and
         comparison tools; and (3) this About page documenting the process.
       </p>
       <p>
-        Initial build completed on <strong>March 8, 2026</strong>.
-        Total active development time: approximately 2 hours in a single session.
+        The project went through multiple iterations. The initial build created a single-page
+        dashboard with 7 competition types. A second session added 4 partnership competition
+        types, restructured the dashboard into separate pages, improved trend line clarity with
+        peer comparison controls, and fixed a critical data quality issue where an affiliated
+        college was being misidentified as a major research university. The development log below
+        documents each stage.
+      </p>
+      <p>
+        Initial build completed on <strong>March 8, 2026</strong>. Iterative refinements ongoing.
       </p>
 
       <details className="prompt-viewer">

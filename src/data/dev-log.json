@@ -46,5 +46,29 @@
     "phase": "dashboard-build",
     "description": "Built About page with development log timeline, collapsible build prompt viewer, and methodology documentation. Implemented hash routing for GitHub Pages compatibility.",
     "ai_contribution": "Created timeline component displaying this development log, integrated the full build prompt as viewable documentation."
+  },
+  {
+    "timestamp": "2026-03-08T23:00:00-05:00",
+    "phase": "iteration",
+    "description": "Restructured dashboard from single-page to multi-page layout: Overview, Insight, Partnerships, Talent, and About. Added four new partnership competition types (Connection Grants, Partnership Development Grants, Partnership Grants, Partnership Engage Grants) by discovering additional SSHRC data files.",
+    "challenges": "Partnership files (PDG, PG) store institution data on sheet '- 2 -' instead of '- 1 -'. Required rewriting sheet detection to scan content headers for 'administering organization' patterns rather than relying on sheet name conventions.",
+    "human_input": "Directed page structure (Insight, Partnerships, Talent groupings). Identified that Connection and Partnership grant data was available on the SSHRC statistics page under 'Research Partnerships'.",
+    "ai_contribution": "Scraped and integrated 50 additional Excel files across 4 new competition types. Built three new page components with competition-specific sections. Rewrote findOrgSheet() to scan sheet content headers."
+  },
+  {
+    "timestamp": "2026-03-08T23:30:00-05:00",
+    "phase": "iteration",
+    "description": "Redesigned trend line charts for clearer UW visibility. UW now appears as a bold black line with visible data points, while other universities fade to light grey. Added interactive 'Compare with' peer buttons to highlight specific universities in color.",
+    "challenges": "Balancing visibility of UW against 14 other universities on the same chart. Too many colored lines create visual noise; too few make it hard to contextualize UW's position.",
+    "human_input": "Requested ability to 'CLEARLY see the trend lines' with 'Highlight UW + top peers' approach.",
+    "ai_contribution": "Implemented peer comparison toggle buttons with a 6-color palette. Added small-sample annotations (dagger symbol) for rows with 5 or fewer applications."
+  },
+  {
+    "timestamp": "2026-03-09T10:00:00-05:00",
+    "phase": "data-quality",
+    "description": "Investigated and fixed critical Western University data errors. Three root causes identified: (1) 'King's University College at Western University' was falsely matching as 'Western University' via substring matching, (2) older files used '#' indicators for success rate columns instead of count columns, (3) connection grant files had a reversed column layout where aggregate totals were misread as per-institution data.",
+    "challenges": "The name matching bug was subtle: 'King's University College at Western University' contains the substring 'western university', so it matched before the real Western row appeared in the spreadsheet. This caused Insight Grants 2018-2024 to show ~5 applications (King's College data) instead of Western's actual ~60 applications. Older files (1997-2008) used 'SR/TR' headers with '#' indicators for success rates, causing decimal success rates (0.5) to be misread as award counts. Connection grant files placed 'Awards' columns before 'Applications' (which were aggregate totals), breaking the parser's column-ordering assumptions.",
+    "human_input": "Flagged that 'Something is wrong with the Western data' after noticing implausible 100% success rates and tiny application counts.",
+    "ai_contribution": "Changed name matching from includes() to startsWith() (after stripping common prefixes) to prevent affiliated colleges from shadowing parent universities. Added SR/TR pattern recognition, expanded header scan windows, and improved awards-only detection for reversed column layouts. Added validation for fractional awards, impossible rate/award combinations, and province header exclusions."
   }
 ]
